@@ -1,8 +1,64 @@
 ---
-title: '03. The Goal - Making Frontier AI Devs Think Twice' 
+title: '03. [under construction] The Goal - Make dangerous researchers switch jobs' 
 weight: 3 
 draft: false
 ---
+
+
+If you’re sold on the basic mechanism after the candy-wrapper example, great! 
+We're glad it was an accessible illustration of how private incentives, paired
+with smart legislation, can quickly and cheaply reshape behavior at scale.
+
+As you can probably guess by our title, our *real* focus at Extinction Bounties 
+is applying this same fine-insured bounty (FIB) model, with some small
+modifications, to something much more serious: **Existential risks arising from 
+novel technological research** - the so-called "black balls" of 
+philosopher Nick Bostrom’s 
+[Vulnerable World Hypothesis](https://nickbostrom.com/papers/vulnerable.pdf), like misaligned AI, engineered pandemics, and "grey goo" nanotechnology. 
+
+We’re *not* here to convince you that these dangers exist. Other people have
+already done that far better than we could:
+
+- For a thorough overview of existential risks (x-risks) in general, 80,000 Hours’ 
+  [The case for reducing existential risks](https://80000hours.org/articles/existential-risks/)
+  is our favorite starting point. 
+- For a thorough introduction to the x-risk posed by the development of
+  artificial intelligence (AI), [AISafety.Info](https://aisafety.info/) is our
+  go-to primer on the topic.  
+
+Our goal here is merely to discuss *how* to deter these kinds of risks using the
+mechanism we propose, and *why* we think it has some unique properties that make
+it a powerful deterrent for a class of risks that has so far proven very
+challenging to deal with at scale.
+
+(One last thing:
+Unsafe AI is our "default" x-risk for discussion on this site, not
+because it is very differnt in kind from e.g. gain-of-function research from the 
+point of view of our mechanism, but 
+because experts we respect agree it poses the greatest
+threat of any novel technological development in the near future. 
+If you disagree with us on that feel free to mentally replace "unsafe AI" with 
+[the Torment Nexus](https://knowyourmeme.com/memes/torment-nexus) while reading.
+Okay, onward!)
+
+
+Now, it's *theoretically* possible that one person, working in total isolation
+from society, could develop a superhuman AI from scratch. But
+this seems unlikely in a world so interconnected that 
+[no one person can make a commercial pencil by themselves](https://www.youtube.com/watch?v=67tHtpac5ws).
+In practice, one would need *capital* to purchase the eqiupment needed (GPUs,
+etc.) as well as *labor* (coworkers) in many specializations to help run the 
+project. Both of these create very reliable "heat signatures" of what someone 
+might be trying to do.
+
+If you agree with us that risking humanity for a science project, even slightly,
+should be considered a criminal act, then such corporations should be considered
+more akin to *organized crime* like mafia or drug cartels than e.g. Walmart or
+Tencent.
+Our standard policing regime does not deal with organized crime well; organized
+criminals get very good at hiding their tracks and enforcing a code of silence
+among their members. In a sense you could say they have
+[specialized their labor in the production of crime](https://www.researchgate.net/publication/237517639_Conspiracy_among_the_many_The_mafia_in_legitimate_industries).
 
 **Why AI Developers Would Think Twice**
 
