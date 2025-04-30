@@ -4,8 +4,10 @@ linkTitle: "2-Minute Elevator Pitch"
 weight: 1
 ---
 
-Humanity's biggest threats today don’t respect borders. Runaway AI
-development, engineered pandemics, rogue nanotech — all of these are global 
+Humanity's biggest threats today don’t respect borders. 
+[Runaway AI development](https://aisafety.info/), 
+engineered pandemics, 
+rogue nanotech — all of these are global 
 risks, all of these are 
 dependent on the development of novel technologies,
 and all of these could be developed - at least in theory - by 
