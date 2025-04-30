@@ -6,7 +6,7 @@ draft: false
 
 Imagine a new law is passed: If you toss a candy wrapper on the sidewalk 
 you instantly owe a **$1,000 fine**. But that fine doesn’t flow into 
-government coffers - goes
+government coffers - it goes
 straight into the pocket of **whoever reports you first**.
 
 How would your behavior change? Well, you'd probably be a lot less likely to
