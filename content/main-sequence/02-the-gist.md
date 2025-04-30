@@ -187,7 +187,7 @@ among their members. In a sense you could say they have
 By *controlling the flow of information* vigorously, organized criminals are
 able to push their Beckerian detection rate down far lower than even most 
 criminals acting alone achieve (no self-respecting drug lord is going to let you
-use a weak PIN on your burner phone). Add into this the fear that potential 
+arrange deals without a burner phone). Add into this the fear that potential 
 insiders who want to go to the police have about *the police themselves*, and 
 you have a recipe for letting almost all organized crime go uncaught, and 
 unanswered for.
