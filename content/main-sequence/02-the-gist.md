@@ -4,7 +4,47 @@ weight: 2
 draft: false
 ---
 
-**How Economics and Game Theory Catch Criminals**
+## A word before we start on our focus
+
+If you’re sold on the basic mechanism after the candy-wrapper example, great! 
+We're glad it was an accessible illustration of how private incentives, paired
+with smart legislation, can quickly and cheaply reshape behavior at scale.
+
+As you can probably guess by our title, our *real* focus at Extinction Bounties 
+is applying this same fine-insured bounty (FIB) model, with some small
+modifications, to something much more serious: **Existential risks arising from 
+novel technological research** - the so-called "black balls" of 
+philosopher Nick Bostrom’s 
+[Vulnerable World Hypothesis](https://nickbostrom.com/papers/vulnerable.pdf), like misaligned AI, engineered pandemics, and "grey goo" nanotechnology. 
+
+We’re *not* here to convince you that these dangers exist. Other people have
+already done that far better than we could:
+
+- For a thorough overview of existential risks (x-risks) in general, 80,000 Hours’ 
+  [The case for reducing existential risks](https://80000hours.org/articles/existential-risks/)
+  is our favorite starting point. 
+- For a thorough introduction to the x-risk posed by the development of
+  artificial intelligence (AI), [AISafety.Info](https://aisafety.info/) is our
+  go-to primer on the topic.  
+
+Our goal here is merely to discuss *how* to deter these kinds of risks using the
+mechanism we propose, and *why* we think it has some unique properties that make
+it a powerful deterrent for a class of risks that has so far proven very
+challenging to deal with at scale.
+
+(One last thing:
+Unsafe AI is our "default" x-risk for discussion on this site, not
+because it is very differnt in kind from e.g. gain-of-function research from the 
+point of view of our mechanism, but 
+because experts we respect agree it poses the greatest
+threat of any novel technological development in the near future. 
+If you disagree with us on that feel free to mentally replace "unsafe AI" with 
+[the Torment Nexus](https://knowyourmeme.com/memes/torment-nexus) while reading.
+Okay, onward!)
+
+---
+
+*Previous: [01. The Hook - What if Wrongdoers Paid for Their Own Busts?](/main-sequence/01-the-hook/)*
 
 Imagine you're part of a group developing an illegal, ultra-powerful AI. Imagine
 further that anyone getting caught assisting in the development of more powerful
