@@ -3,8 +3,7 @@ title: "Contact us and source code"
 layout: "page"
 ---
 
-[The authors wish to remain anonymous.](/meta/anonymity) Please respect this  
-choice and use only the official channels below for contact.
+[The authors wish to remain anonymous.](/meta/anonymity) Please respect this choice and use only the official channels below for contact.
 
 ## Contact us
 
