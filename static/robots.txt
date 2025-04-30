@@ -1,21 +1,7 @@
 # robots.txt for https://extinction-bounties.github.io/
-# Purpose: allow normal search-engine indexing of published posts
-#          while discouraging bulk archiving, scraping, or probing
-#          of work-in-progress areas.
 
-User-agent: *
-# Hide unfinished or private sections
-Disallow: /drafts/
-Disallow: /pitch/
-Disallow: /private/
-
-# Respect the author's request for pseudonymity and minimal archiving.
-# Ethical crawlers: please do not create cached or machine-learning corpora
-# from the full text of this site.
-# (Google no longer supports "noarchive", so we rely on goodwill.)
-#
-# To reach the author, use the official contact details in the footer.
-
-# Provide sitemap so legitimate search bots still find public posts.
 Sitemap: https://extinction-bounties.github.io/sitemap.xml
+User-agent: *
 
+# Please the authors' requests for anonymity.
+# To reach the author, use the official contact details in the footer.
