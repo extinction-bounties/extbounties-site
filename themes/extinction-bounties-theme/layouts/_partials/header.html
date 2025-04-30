@@ -1,4 +1,4 @@
-<h1>{{ .Site.Title }} (in alpha)</h1>
+<h1><a href="/">{{ .Site.Title }}</a></h1>
 <p>{{ .Site.Params.subtitle }}</p>
 <details id="policy-disclaimer" class="policy-disclaimer" open>
   <summary><strong>Policy-Research&nbsp;Disclaimer (click to close)</strong></summary>
@@ -53,5 +53,4 @@
   details.policy-disclaimer summary { cursor: pointer; font-size: 1.05rem; }
   details.policy-disclaimer ul { margin-left: 1rem; }
 </style>
-<h2><a href="/pitch/">Our 2-minute elevator pitch</a></h2>
-{{ partial "menu.html" (dict "menuID" "main" "page" .) }}
+<h2><a href="/pitch/" style="text-decoration: none; font-weight: bold;">Our 2-minute elevator pitch</a></h2>
