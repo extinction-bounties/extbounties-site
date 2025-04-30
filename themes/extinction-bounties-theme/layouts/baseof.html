@@ -2,18 +2,40 @@
 <html lang="{{ site.Language.LanguageCode }}" dir="{{ or site.Language.LanguageDirection `ltr` }}">
 <head>
   {{ partial "head.html" . }}
+  <style>
+    hr.style-eight {
+      overflow: visible !important;      /* For IE */
+      padding: 0 !important;
+      border: none !important;
+      border-top: medium double #333 !important;
+      color: #333 !important;
+      text-align: center !important;
+    }
+    hr.style-eight::after {
+      content: "§" !important;
+      display: inline-block !important;
+      position: relative !important;
+      top: -0.9em !important;
+      font-size: 1.5em !important;
+      padding: 0 0.25em !important;
+      background: #fafafa !important;
+    }
+  </style>
 </head>
 <body>
   <header>
     {{ partial "header.html" . }}
   </header>
-    <hr>
+  <hr class="style-eight">
+
   <main>
     {{ block "main" . }}{{ end }}
   </main>
-    <hr>
+  <hr class="style-eight">
+
   <footer>
     {{ partial "footer.html" . }}
   </footer>
 </body>
 </html>
+
