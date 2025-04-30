@@ -49,38 +49,58 @@ Okay, onward!)
 Imagine you're part of a group developing an illegal, ultra-powerful AI. Imagine
 further that anyone getting caught assisting in the development of more powerful
 frontier AI models is punishable by a fine-insured bounty (FIB), like we
-illustrated in
-[The Hook - What if Wrongdoers Paid for Their Own Busts?](/main-sequence/01-the-hook/).
+illustrated 
+[previously](/main-sequence/01-the-hook/).
+[To keep the math simple](/side-topics/how-large-extinction-bounty/),
+let's just say the fine is a flat $1 million per convicted person.
+
 Anyone who exposes your secret stands to make millions by claiming a huge bounty
-funded, in part, out of your own pocket. You trust your team—but how much? How
-sure are you that everyone will stay quiet?
+funded, in part, out of your own pocket. **You trust your team—but how much? How
+sure are you *really* that everyone will stay quiet?**
 
 This is where economics and game theory step in, turning co-conspirators into
 competitors.
 
 ## The economics of deterrence
 
-The idea traces back to Nobel Prize-winning economist Gary Becker, who showed
+In his field-defining work
+[Crime and Punishment: An Economic Approach](https://www.nber.org/system/files/chapters/c3625/c3625.pdf),
+Nobel Prize-winning economist Gary Becker showed
 crime can be discouraged if the expected punishment outweighs the reward.
-Fine-Insured Bounties (FIBs) take this principle and run a marathon with it: in
-Robin Hanson's original formulation, the fine for a crime should equal the *full
-societal harm of that crime*, adjusted for the odds of getting caught. (We at
-Extinction Bounties suspect this is in fact a far overestimate of what would be
-effective to break up virtually all criminal enterprises of interest to us —
-that's a good thing!)
+Expected punishment has not one, but *two* important factors:
 
-When fines are set this high, the math changes dramatically. Suddenly, even
-considering an illegal act becomes extremely financially reckless. No rational
+- How *big* the punishment is, and
+- How *likely* the punishment is to actually be levied.
+
+Punishment likelihood itself depends on how likely the crime is to even be
+detected in the first place, and then how strong of a case the prosecutors
+can put together to how it really happened.
+
+Fine-Insured Bounties (FIBs) take this principle and run a marathon with it. In
+Robin Hanson's original formulation, the fine for a crime should equal the *full
+societal harm of that crime*, adjusted for the odds of getting caught. 
+As we have alluded to, there is strong reason to believe those odds quickly
+approach 100% as specialized bounty hunters and insurers alie get good at 
+detection and prosecution.
+
+We at Extinction Bounties suspect Hanson's "full societal harm" may in fact be
+far in excess of what is needed to effectively deter true x-risks. But the
+fines would be staggering on a per-person nonetheless.
+In any case,
+when fines are set this high, the math changes dramatically. Suddenly, even
+considering an illegal act publicly becomes extremely financially reckless.
+No rational
 actor takes the risk if they're likely to lose far more than they'd gain. And,
-generally, we expect people brilliant enough to become top AI researchers,
+generally, we expect people brilliant enough to become top AI researcher,
 virologists, and the like to be pretty rational.
 
 ## The game-theoretic trap
 
-But it's not just economics. Game theory—the mathematical study of strategic
-decisions—reveals another layer of power in FIBs. Consider the scenario again:
-multiple people secretly developing banned technology. Normally, each person
-feels protected by the "blue wall of silence" of their coworkers. But with a big
+
+Game theory, the mathematical study of strategic
+decisions, reveals another layer of power in FIBs. Consider the scenario again of
+multiple people secretly developing unsafe AI. Normally, each person
+feels protected by a "wall of silence" of their coworkers. But with a big
 bounty, the person who defects *first* wins *big*.
 
 It's an n-player version of the classic prisoner's dilemma: as the group grows,
