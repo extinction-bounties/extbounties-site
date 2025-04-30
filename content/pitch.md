@@ -67,3 +67,4 @@ When the downside is
 inconcievably large, we need enforcement that’s automatic, incorruptible, and 
 fast. Extinction bounties may be the key to all three.
 
+# Got your attention? Try [the Main Sequence](/main-sequence/01-the-hook/) next!
