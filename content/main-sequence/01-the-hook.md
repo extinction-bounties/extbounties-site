@@ -69,16 +69,19 @@ What happens next?
 1. **Behavior changes almost immediately.** Would-be offenders think twice 
    before committing crime X. We didn't have to spend *any taxpayer money* or
    hire any new cops to get this - it's already working!
-1. **Entrepreneurs move in.** Anti-X liability insurance firms pop up soon 
-   after, selling coverage and learning to vet low‑risk customers - because 
-   their profit margins depend on it. You can only afford to insure a $1000 
-   fine at $10 a year if less than 1% of your customers commit it.
+1. **Entrepreneurs move in.** 
+   - Anti-X *liability insurance firms* pop up soon 
+     after, selling coverage and learning to vet low‑risk customers - because 
+     their profit margins depend on it. (You can only afford to insure a $1000 
+     fine at $10 a year if less than 1% of your customers commit it.)
+   - While at first the bounties are reclaimed by ordinary citizens,
+     *bounty hunters* specialized in the detection and prosecution of crimes
+     quickly emerge as well.
 1. **Self‑financing enforcement.** X-committers fund the very network of watchers
    who catch them, and some of these watchers become very skillful indeed at
-   their job - we call these "bounty hunters". These people quickly drive the
-   *detection rate* of crimes close to 100%, while trying to minimize false
-   accusations that take up time, energy, and money, while providing nothing
-   in return.
+   their job. In aggregate, these bounty hunters quickly drive the
+   *detection rate* of crimes close to 100%, while also trying to minimize false
+   accusations that take up valuable resources without a payout.
 
 That feedback loop is immensely powerful. As we’ll see, it can apply to much 
 more than roadside trash. 
