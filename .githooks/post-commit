@@ -1,0 +1,9 @@
+#!/usr/bin/env bash
+# Stop infinite recursion
+[ "$ANON_ALREADY" = "1" ] && exit 0
+export ANON_ALREADY=1
+
+# Amend in-place with fixed author + date
+git commit --amend --no-edit \
+  --author="Extinction Bounties <209185608+extinction-bounties@users.noreply.github.com>" \
+  --date="1745971200 +0000"        # 2025-04-30 00:00:00 UTC

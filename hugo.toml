@@ -1,0 +1,8 @@
+baseURL = "https://extinction-bounties.github.io/"
+languageCode = "en-us"
+title = "Extinction Bounties"
+theme = "extinction-bounties-theme" # Placeholder, can even use 'ananke' or 'blank' for now
+defaultContentLanguage = "en"
+
+[params]
+  subtitle = "Policy-based deterrence for the 21st century."

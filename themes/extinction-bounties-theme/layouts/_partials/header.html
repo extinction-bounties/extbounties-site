@@ -1,0 +1,57 @@
+<h1>{{ .Site.Title }} (in alpha)</h1>
+<p>{{ .Site.Params.subtitle }}</p>
+<details id="policy-disclaimer" class="policy-disclaimer" open>
+  <summary><strong>Policy-Research&nbsp;Disclaimer (click to close)</strong></summary>
+
+  <div>
+    <p><em>Extinction Bounties</em> publishes <strong>theoretical economic and legal mechanisms</strong> intended to stimulate scholarly and public debate on catastrophic-risk governance.  
+    The site <strong>offers policy analysis and advocacy only</strong> in the sense of outlining possible legislative or contractual frameworks.</p>
+    <ul>
+      <li><strong>No Legal or Financial Advice.</strong> Nothing here should be treated as a substitute for qualified legal counsel, financial due-diligence, or regulatory guidance. Stakeholders remain responsible for ensuring their actions comply with the laws and professional standards of their own jurisdictions.</li>
+      <li><strong>Exploratory &amp; Personal Views.</strong> All scenarios, numerical examples and opinions are <em>research hypotheses</em> presented by the author in an academic capacity. They do not represent the views of the author’s employer, funding bodies, or any governmental authority.</li>
+      <li><strong>Implementation Caveats.</strong> Any real-world adoption of these ideas would require democratic deliberation, statutory authority, and robust safeguards to prevent misuse. References to enforcement, penalties, or “bounties” are illustrative models, <strong>not instructions or invitations</strong> to engage in private policing or unlawful conduct.</li>
+      <li><strong>No Warranty &amp; Limited Liability.</strong> Content is provided “as is” without warranty of completeness or accuracy; the author disclaims liability for losses arising from reliance on this material.</li>
+    </ul>
+
+  </div>
+  <p><small>By continuing beyond this notice you acknowledge that you have read, understood, and accepted these conditions.</small></p>
+</details>
+
+<script>
+(function () {
+  const KEY = 'policyDisclaimerClosed';
+  const details = document.getElementById('policy-disclaimer');
+  if (!details) return;                         // defensive guard
+
+  /* 1️⃣  On first page load, collapse if we saved a “closed” flag */
+  if (localStorage.getItem(KEY) === 'true') {
+    details.removeAttribute('open');
+  }
+
+  /* 2️⃣  Whenever the user toggles the panel, remember the choice */
+  details.addEventListener('toggle', () => {
+    if (details.open) {
+      localStorage.removeItem(KEY);             // reset if they reopen
+    } else {
+      localStorage.setItem(KEY, 'true');        // remember closed
+    }
+  });
+})();
+</script>
+
+
+<style>
+  details.policy-disclaimer {
+    border: 2px solid #ccc;
+    border-radius: .75rem;
+    padding: .75rem 1rem;
+    margin: 1.5rem 0;
+    background: #f9f9f9;
+  }
+  details.policy-disclaimer[open] > summary::marker { content: "▼ "; }
+  details.policy-disclaimer > summary::marker { content: "▶ "; }
+  details.policy-disclaimer summary { cursor: pointer; font-size: 1.05rem; }
+  details.policy-disclaimer ul { margin-left: 1rem; }
+</style>
+<h2><a href="/pitch/">Our 2-minute elevator pitch</a></h2>
+{{ partial "menu.html" (dict "menuID" "main" "page" .) }}

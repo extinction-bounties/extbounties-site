@@ -1,0 +1,25 @@
+baseURL = "https://extinction-bounties.github.io/"
+languageCode = 'en-US'
+title = 'Extinction Bounties'
+
+[menus]
+  [[menus.main]]
+    name = 'Home'
+    pageRef = '/'
+    weight = 10
+
+  [[menus.main]]
+    name = 'Main Sequence'
+    pageRef = '/main-sequence'
+    weight = 20
+
+  [[menus.main]]
+    name = 'Side Topics'
+    pageRef = '/side-topics'
+    weight = 30
+
+[module]
+  [module.hugoVersion]
+    extended = false
+    min = '0.146.0'
+

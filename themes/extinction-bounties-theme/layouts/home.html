@@ -1,0 +1,16 @@
+{{ define "main" }}
+
+  {{ range .Site.Sections.ByWeight }}
+    <h1>{{ .Title }}</h1>
+      {{ $pages := sort .Pages "Title" }}
+      {{ range $pages }}
+        {{ if not (in .File.Path "/pitch/") }}
+          <h2><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></h2>
+        {{ end }}
+      {{ end }}
+  {{ end }}
+
+  {{ .Content }}
+
+{{ end }}
+

@@ -1,0 +1,84 @@
+# Build & deploy the Hugo site to GitHub Pages
+name: Deploy Hugo site to Pages
+
+on:
+  push:
+    branches: [main]        # rebuild on every commit to main
+  workflow_dispatch:        # manual button in the Actions tab
+
+permissions:                # minimum needed
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:                # only one Pages deploy at a time
+  group: "pages"
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    env:
+      HUGO_VERSION: 0.146.0           # <— Latest as of Apr 2025
+      HUGO_ENVIRONMENT: production
+      TZ: Europe/Stockholm            # Avoid time-zone surprises
+    steps:
+      - name: Install Hugo
+        run: |
+          wget -O ${{ runner.temp }}/hugo.deb \
+            https://github.com/gohugoio/hugo/releases/download/v${HUGO_VERSION}/hugo_extended_${HUGO_VERSION}_linux-amd64.deb && \
+          sudo dpkg -i ${{ runner.temp }}/hugo.deb
+
+      - name: Install Dart Sass   # drop if your theme never uses Sass
+        run: sudo snap install dart-sass
+
+      - name: Checkout source
+        uses: actions/checkout@v4
+        with:
+          submodules: recursive     # pulls themes/modules too
+          fetch-depth: 0
+
+      - name: Setup Pages
+        id: pages
+        uses: actions/configure-pages@v5
+
+      # ---------- Optional: restore cached Hugo resources ----------
+      - name: Cache restore
+        id: cache-restore
+        uses: actions/cache/restore@v4
+        with:
+          path: ${{ runner.temp }}/hugo_cache
+          key: hugo-${{ github.run_id }}
+          restore-keys: hugo-
+      # --------------------------------------------------------------
+
+      - name: Build with Hugo
+        run: |
+          hugo --gc --minify \
+               --baseURL "${{ steps.pages.outputs.base_url }}/" \
+               --cacheDir "${{ runner.temp }}/hugo_cache"
+
+      # ---------- Optional: save cache back -------------------------
+      - name: Cache save
+        uses: actions/cache/save@v4
+        if: always()
+        with:
+          path: ${{ runner.temp }}/hugo_cache
+          key: ${{ steps.cache-restore.outputs.cache-primary-key }}
+      # --------------------------------------------------------------
+
+      - name: Upload build artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: ./public          # Hugo’s default output dir
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deploy.outputs.page_url }}
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deploy
+        uses: actions/deploy-pages@v4
