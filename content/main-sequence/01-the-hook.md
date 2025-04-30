@@ -4,37 +4,86 @@ weight: 1
 draft: false
 ---
 
-Imagine you toss a candy wrapper on the sidewalk—and instantly owe a **$1,000
-fine**. But that fine doesn’t just vanish into government coffers. It goes
+Imagine a new law is passed: If you toss a candy wrapper on the sidewalk 
+you instantly owe a **$1,000 fine**. But that fine doesn’t flow into 
+government coffers - goes
 straight into the pocket of **whoever reports you first**.
 
-This isn’t science fiction. It’s the heart of the **Fine‑Insured Bounty (FIB)**
-concept, popularized by economist Robin Hanson in his landmark
+How would your behavior change? Well, you'd probably be a lot less likely to
+toss candy wrappers on the street in public places (not that you do!). 
+You would be very careful indeed if anyone else was around to see it, even a 
+close friend.
+
+Is that enough? Well, plenty of places also have security cameras set up - if
+a piece of litter is found on the sidewalk it would be trivial for whoever
+watches the camera to rewind and find the person who threw it down. So even in
+deserted streets outside buildings, it's probably not a good idea to give any
+random security guard a free $1,000 payday. 
+
+Now that you think about it,
+a cheap $50 IP camera pays for itself many times over if even one litterer is
+reported by the purchaser. That's a viable business model - who's to say people 
+aren't using it? They might set up cameras *anywhere*
+they think they could catch you - and they might even prefer out of the way 
+places so that they have less competition for the race to be first to report!
+
+Okay, but suppose you're in a field far away from everyone, and there's not a
+power line in sight - are you safe then? Not so fast: Basic fingerprinting kits
+can be purchased on Amazon for just $25 apiece, and even professional ones are 
+under $500 these days. And there's nothing in the law saying that it matters 
+whether you threw that candy wrapper yesterday, or a month ago, or a year ago...
+
+You see where this is going. Much like how an old lady might cruise her block
+for cans and bottles to recycle *en masse*, so here does **the fine create a 
+new market** - a market
+you quickly realize is probably more clever and more all-seeing than
+any police department could hope to be. Someone specialized in finding and
+prosecuting litterers could make a six-figure salary with less than ten
+successful "busts" a month - pretty good for a gig that offers flexible working
+hours, requires little upfront investment, and doesn't require a high school 
+diploma.
+
+**You solemnly vow to never litter again.** When a local business reaches out and
+offers you a policy, $5 a year in exchange for covering 90% of your first
+littering offense that year if it happens, you figure it's a worthwhile trade
+for some peace of mind. After a few months, you suddenly wake up to the
+realization that you haven't seen a piece of litter since the new policy began.
+
+---
+
+This isn’t fiction. 
+It’s at the heart of the **Fine‑Insured Bounty (FIB)**
+concept of criminal justice, popularized by economist Robin Hanson in his 
+landmark essay
 [Privately Enforced and Punished Crime](https://www.overcomingbias.com/p/privately-enforced-punished-crimehtml).
-Unlawful acts trigger a hefty cash-based penalty, and that penalty funds a
-healthy reward for private whistleblowers. Because
-[insurers would quickly emerge](/side-topics/but-who-would-insure-a-criminal/)
-to cover the fines, even penniless offenders can’t dodge the consequences.
-Everyone—from your nosy neighbor to a cheap IP camera—becomes an eager lookout.
+Under an FIB regime, committing a crime puts you on the hook for a hefty 
+cash-based penalty, and that penalty funds a healthy reward for private 
+whistleblowers. 
 
-> “What if the hunted became the hunters?”
+Let's generalize a bit: We pass a fine-insured bounty law on crime X. 
+What happens next?
 
-In our littering example, anyone who spots you can click “Report” on an app and
-claim their slice of that $1,000. Suddenly, **littering looks as risky as
-jaywalking in front of a cop**. On the flip side, it’s a no‑brainer investment
-to install a $50 camera in a busy park: your $50 outlay can turn into dozens of
-$100 bounties over a year.
+1. **Behavior changes almost immediately.** Would-be offenders think twice 
+   before committing crime X. We didn't have to spend *any taxpayer money* or
+   hire any new cops to get this - it's already working!
+1. **Entrepreneurs move in.** Anti-X liability insurance firms pop up soon 
+   after, selling coverage and learning to vet low‑risk customers - because 
+   their profit margins depend on it. You can only afford to insure a $1000 
+   fine at $10 a year if less than 1% of your customers commit it.
+1. **Self‑financing enforcement.** X-committers fund the very network of watchers
+   who catch them, and some of these watchers become very skillful indeed at
+   their job - we call these "bounty hunters". These people quickly drive the
+   *detection rate* of crimes close to 100%, while trying to minimize false
+   accusations that take up time, energy, and money, while providing nothing
+   in return.
 
-So what happens next?
+That feedback loop is immensely powerful. As we’ll see, it can apply to much 
+more than roadside trash. 
 
-1. **Behavior changes.** Would‑be litterers think twice before tossing trash.
-1. **Entrepreneurs move in.** Cleanup‑insurance pops up, selling coverage and
-   vetting low‑risk customers.
-1. **Self‑financing enforcement.** Offenders fund the very network of watchers
-   who catch them.
+We at Extinction Bounties think it might even be able to *save humanity from 
+itself*.
 
-That feedback loop is powerful—and, as we’ll see, it can apply to much more than
-roadside trash.
+---
 
 In upcoming posts, we’ll dive into how this same mechanism could **turbo‑charge
 AI safety**, turning every engineer, auditor, and competitor into a potential
