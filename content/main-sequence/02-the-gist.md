@@ -192,8 +192,9 @@ insiders who want to go to the police have about *the police themselves*, and
 you have a recipe for letting almost all organized crime go uncaught, and 
 unanswered for.
 
-This is however where game theory, the mathematical study of strategic
-decisions, emerges to reveals a "superpower" inherent in FIBs. 
+This is where game theory, the mathematical study of strategic
+decisions, revealss e "superpower" latent in FIBs and whistleblower-fine-based
+mechanisms in general.
 Normally, each person feels protected by the enterprise's code of silence 
 among their peers. But with a big enough bounty, applied on a per-head basis,
 **the person who defects *first* wins *big***. 
